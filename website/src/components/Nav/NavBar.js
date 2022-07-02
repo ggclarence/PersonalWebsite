@@ -8,7 +8,7 @@ function NavBar(){
       <ul class="nav-list">
         <li>
           <a href="/home">
-            <span> 
+            <span class="links"> 
               <i class="material-icons">home</i>
               Home
             </span>
@@ -17,7 +17,7 @@ function NavBar(){
 
         <li>
           <a href="/about_me">
-            <span> 
+            <span class="links"> 
               <i class="material-icons">person</i>
               About me
             </span>
@@ -26,7 +26,7 @@ function NavBar(){
 
         <li>
           <a href="/my_projects">
-            <span> 
+            <span class="links"> 
               <i class="material-icons">folder_open</i>
               My Projects
             </span>
@@ -35,7 +35,7 @@ function NavBar(){
 
         <li>
           <a href="/my_links">
-            <span> 
+            <span class="links"> 
               <i class="material-icons">link</i>
               My Links
             </span>
@@ -44,7 +44,7 @@ function NavBar(){
 
         <li>
           <a href="/blog">
-            <span> 
+            <span class="links"> 
               <i class="material-icons">article</i>
               Blog
             </span>
