@@ -1,14 +1,59 @@
 import React from "react";
+import './NavBar.css';
 
 function NavBar(){
-    return(
+  return(
         
-       <div className="NavContainer">
-         <p>Home</p>
-         <p>My Projects</p>
-         <p>My Links</p>    
-       </div>
-    )
+    <div className="NavContainer">
+      <ul class="nav-list">
+        <li>
+          <a href="/home">
+            <span> 
+              <i class="material-icons">home</i>
+              Home
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/about_me">
+            <span> 
+              <i class="material-icons">person</i>
+              About me
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/my_projects">
+            <span> 
+              <i class="material-icons">folder_open</i>
+              My Projects
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/my_links">
+            <span> 
+              <i class="material-icons">link</i>
+              My Links
+            </span>
+          </a>
+        </li>
+
+        <li>
+          <a href="/blog">
+            <span> 
+              <i class="material-icons">article</i>
+              Blog
+            </span>
+          </a>
+        </li>
+        
+      </ul>    
+    </div>
+  )
 }
 
 export default NavBar
